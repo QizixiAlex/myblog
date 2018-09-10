@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule,
-         MatInputModule, MatCardModule, MatToolbarModule, MatExpansionModule, MatProgressSpinnerModule } from '@angular/material';
+         MatInputModule, MatCardModule, MatToolbarModule, MatExpansionModule,
+         MatProgressSpinnerModule, MatPaginatorModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
@@ -31,6 +32,7 @@ import { AppRoutingModule } from './app-routing.module';
     MatToolbarModule,
     MatExpansionModule,
     MatProgressSpinnerModule,
+    MatPaginatorModule,
     HttpClientModule
   ],
   providers: [],
